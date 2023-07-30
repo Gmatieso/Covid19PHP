@@ -9,14 +9,14 @@ if(isset($_POST['submit'])){
 $fname=$_POST['fullname'];
 $mnumber=$_POST['mobilenumber'];
 $dob=$_POST['dob'];
-$govtid=$_POST['govtissuedid'];
-$govtidnumber=$_POST['govtidnumber'];
+// $govtid=$_POST['govtissuedid'];
+// $govtidnumber=$_POST['govtidnumber'];
 $address=$_POST['address'];
 $state=$_POST['state'];
 $testtype=$_POST['testtype'];
 $timeslot=$_POST['birthdaytime'];
 $orderno= mt_rand(100000000, 999999999);
-$query="insert into tblpatients(FullName,MobileNumber,DateOfBirth,GovtIssuedId,GovtIssuedIdNo,FullAddress,State) values('$fname','$mnumber','$dob','$govtid','$govtidnumber','$address','$state');";
+$query="insert into tblpatients(FullName,MobileNumber,DateOfBirth,FullAddress,State) values('$fname','$mnumber','$dob','$address','$state');";
 $query.="insert into tbltestrecord(PatientMobileNumber,TestType,TestTimeSlot,OrderNumber) values('$mnumber','$testtype','$timeslot','$orderno');";
 $result = mysqli_multi_query($con, $query);
 if ($result) {
@@ -123,14 +123,14 @@ error:function (){}
                                              <label>DOB</label>
                                             <input type="date" class="form-control" id="dob" name="dob" required="true">
                                         </div>
-                                        <div class="form-group">
+                                        <!-- <div class="form-group">
                                                <label>Any Govt Issued ID</label>
                                             <input type="text" class="form-control" id="govtissuedid" name="govtissuedid" placeholder="Pancard / Driving License / Voter id / any other" required="true">
-                                        </div>
-                                        <div class="form-group">
+                                        </div> -->
+                                        <!-- <div class="form-group">
                                               <label>Govt Issued ID Number</label>
                                             <input type="text" class="form-control" id="govtidnumber" name="govtidnumber" placeholder="Enter Goevernment Issued ID Number" required="true">
-                                        </div>
+                                        </div> -->
                           
 
                                <div class="form-group">
@@ -166,7 +166,7 @@ error:function (){}
 
                                                       <div class="form-group">
                                             <label>Time Slot for Test</label>
-                                 <input type="datetime-local" class="form-control" id="birthdaytime" name="birthdaytime" class="form-control">                                        
+                                 <input type="date" class="form-control" id="birthdaytime" name="birthdaytime" class="form-control">                                        
                              </div>
                        <div class="form-group">
                                  <input type="submit" class="btn btn-primary btn-user btn-block" name="submit" id="submit">                           
