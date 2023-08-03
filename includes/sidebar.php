@@ -70,6 +70,86 @@
 <?php else:    ?>          
          
             <!-- Nav Item - Dashboard -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
             <li class="nav-item">
                 <a class="nav-link" href="live-test-updates.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
@@ -108,6 +188,9 @@
                 <a class="nav-link" href="login.php">
                     <i class="fas fa-fw fa-user"></i>
                     <span>Admin</span></a>
+            </li>
+            <li class="nav-item active homepage">
+                 <a class="small" href="index.php" style="font-weight:bold;"><i class="fa fa-home" aria-hidden="true"></i>BACK TO HOMEPAGE</a>
             </li>
 
 <?php endif;    ?>          

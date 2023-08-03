@@ -120,14 +120,14 @@ error:function (){}
                                                 <span id="mobile-availability-status" style="font-size:12px;"></span>
                                         </div>
                                         <div class="form-group">
-                                             <label>DOB</label>
+                                             <label>Date of Birth</label>
                                             <input type="date" class="form-control" id="dob" name="dob" required="true">
                                         </div>
-                                        <!-- <div class="form-group">
-                                               <label>Any Govt Issued ID</label>
-                                            <input type="text" class="form-control" id="govtissuedid" name="govtissuedid" placeholder="Pancard / Driving License / Voter id / any other" required="true">
-                                        </div> -->
-                                        <!-- <div class="form-group">
+                                        <div class="form-group">
+                                               <label>Govt Issued ID/Birth Certificate Number/Passport Number</label>
+                                            <input type="text" class="form-control" id="govtissuedid" name="govtissuedid" placeholder="Govt Issued ID/Birth Certificate Number/Passort Number" required="true">
+                                        </div> 
+                                         <!--<div class="form-group">
                                               <label>Govt Issued ID Number</label>
                                             <input type="text" class="form-control" id="govtidnumber" name="govtidnumber" placeholder="Enter Goevernment Issued ID Number" required="true">
                                         </div> -->
@@ -138,8 +138,8 @@ error:function (){}
                                             <textarea class="form-control" id="address" name="address" required="true" placeholder="Enter your full addres here"></textarea>
                                         </div>
  <div class="form-group">
-                                              <label>State</label>
-                                      <input type="text" class="form-control" id="state" name="state" placeholder="Enter your State Here" required="true">
+                                              <label>Town</label>
+                                      <input type="text" class="form-control" id="state" name="state" placeholder="Enter your Town Here" required="true">
                                         </div>
 
                                 </div>

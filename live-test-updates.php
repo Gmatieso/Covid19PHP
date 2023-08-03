@@ -30,7 +30,7 @@ include_once('includes/config.php');
 
     <!-- Custom styles for this page -->
     <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
-
+    <a class="small" href="index.php" style="font-weight:bold;"><i class="fa fa-home" aria-hidden="true"></i>BACK TO HOMEPAGE</a>
 </head>
 
 <body id="page-top">

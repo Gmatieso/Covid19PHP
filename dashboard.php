@@ -27,6 +27,19 @@ if (strlen($_SESSION['aid']==0)) {
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <style>
+    body {
+        /* Set the background image path */
+        background-image: url('file:///C:/xampp/htdocs/Covid19PHP/img/doctor.jpg');
+        /* Set the background image to cover the entire screen */
+        background-size: cover;
+        /* Center the background image horizontally and vertically */
+        background-position: center center;
+        /* Prevent background image from repeating */
+        background-repeat: no-repeat;
+    }
+</style>
+
 
 </head>
 

@@ -241,10 +241,7 @@ while($row=mysqli_fetch_array($query)){
     </tr>
 <?php endif;?>
 <?php if($row['FinalReport']!=''):?>
-  <tr>
-    <th>Report</th> 
-    <td><a href="reportfiles/<?php echo $row['FinalReport'];?>" target="_blank">Download</a></td>
-    </tr>
+  
 
     <tr>
     <th>Report Delivered Time</th> 
