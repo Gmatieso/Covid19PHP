@@ -56,13 +56,13 @@
       </div>
     </div>
   </nav>
-  <div style = "background-image:url('img/doctor.jpg');      background-repeat: no-repeat;
-      background-position: center;
-      background-size: 100%;">
+  <div style = "background-image:url('img/doctor.jpg');      background-repeat: no-repeat;  background-position: center;  background-size: 100%;">
   <header class="text-white">
     <div class="container text-center">
       <h1>COVID19-TMS</h1>
+      <div class="text-white>
       <p class="lead">COVID19 - Testing Management System</p>
+      </div>
     </div>
   </header>
   </div>
