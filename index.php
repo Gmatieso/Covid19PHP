@@ -15,16 +15,6 @@
 
   <!-- Custom styles for this template -->
   <link href="css/scrolling-nav.css" rel="stylesheet">
-
-  <style type="text/css">
-		body {
-			background-image: url('..\img\doctor.jpg');
-			background-repeat: no-repeat;
-			height: 70%;
-			background-size: cover;
-		}
-	</style>
-
 </head>
 <body id="page-top">
 
@@ -66,13 +56,16 @@
       </div>
     </div>
   </nav>
-
-  <header class="bg-primary text-white">
+  <div style = "background-image:url('img/doctor.jpg');      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100%;">
+  <header class="text-white">
     <div class="container text-center">
       <h1>COVID19-TMS</h1>
       <p class="lead">COVID19 - Testing Management System</p>
     </div>
   </header>
+  </div>
 
   <section id="about">
     <div class="container">
